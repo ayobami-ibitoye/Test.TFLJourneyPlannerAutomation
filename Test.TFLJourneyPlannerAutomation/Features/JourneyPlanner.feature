@@ -66,12 +66,12 @@ Scenario: 04_Verify that a user can plan a journey based on arrival time
 	And I fill-in To field with E16 2RD
 	And I click on change time link
 	And I click on Arriving
-	And I select Fri 12 Aug from the dropdown
+	And I select Fri 26 Aug from the dropdown
 	And I choose 10:00 from the list
 	And I click on Plan a journey button
 	Then the result page Journey results Must be displayed
 	And the search data DA1 1DY and E16 2RD are displayed
-	And the search data Friday 12th Aug, 10:00 must be displayed
+	And the search data Friday 26th Aug, 10:00 must be displayed
 
 Scenario: 05_Verify that a user can modify a succesfully planned journey
 	Given that the TFL application is loaded

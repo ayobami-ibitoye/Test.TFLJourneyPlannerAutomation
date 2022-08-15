@@ -17,8 +17,8 @@ namespace Test.TFLJourneyPlannerAutomation.Pages
         private By tofield = By.Id("InputTo");
         private By planmyjourneyBtn = By.CssSelector("#plan-journey-button");
         private By resultName = By.CssSelector(".headline-container span:nth-child(1)");
-        private By resultDetails1 = By.CssSelector(".summary-row:nth-child(1)");
-        private By resultDetails2 = By.CssSelector(".summary-row:last-child");
+        private By resultDetails1 = By.CssSelector(".summary-row:first-child strong");
+        private By resultDetails2 = By.CssSelector(".summary-row:last-child strong");
         private By errorMessage = By.CssSelector(".field-validation-errors li:nth-child(1)");
         private By acceptcookiesBtn = By.Id("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll");
         private By doneBtn = By.CssSelector("#cb-confirmedSettings .cb-button");

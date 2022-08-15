@@ -372,7 +372,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I click on Arriving", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 69
- testRunner.And("I select Fri 12 Aug from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I select Fri 26 Aug from the dropdown", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 70
  testRunner.And("I choose 10:00 from the list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -387,7 +387,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("the search data DA1 1DY and E16 2RD are displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 74
- testRunner.And("the search data Friday 12th Aug, 10:00 must be displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("the search data Friday 26th Aug, 10:00 must be displayed", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -435,7 +435,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I click on Plan a journey button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 82
- testRunner.When("I click on Edit journey link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("I click on Edit journey link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 83
  testRunner.And("I fill-in From field with DA1 1DY", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -495,7 +495,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I click on Plan a journey button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 94
- testRunner.When("I click on HomePage link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.And("I click on HomePage link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 95
  testRunner.And("I click on Recents link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

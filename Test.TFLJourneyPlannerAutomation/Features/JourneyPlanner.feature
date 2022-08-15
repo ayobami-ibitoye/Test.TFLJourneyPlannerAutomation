@@ -79,7 +79,7 @@ Scenario: 05_Verify that a user can modify a succesfully planned journey
 	And I fill-in From field with DA1 5TW
 	And I fill-in To field with E16 2RD
 	And I click on Plan a journey button
-	When I click on Edit journey link 
+	And I click on Edit journey link 
 	And I fill-in From field with DA1 1DY
 	And I click on Update journey button
 	Then the result page Journey results Must be displayed
@@ -91,7 +91,7 @@ Scenario: 06_Verify that the recents tab display recently planned journeys
 	And I fill-in From field with DA1 5TW
 	And I fill-in To field with E16 2RD
 	And I click on Plan a journey button
-	When I click on HomePage link
+	And I click on HomePage link
 	And I click on Recents link
 	Then the recent search DA1 5TW to E16 2RD must be displayed
 

@@ -22,8 +22,7 @@ namespace Test.TFLJourneyPlannerAutomation.SetUp
             _driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(60);
             _driver.Navigate().GoToUrl(baseUrl);
             _driver.Manage().Window.Maximize();
-            //ChromeOptions options = new ChromeOptions();
-            //options.AddArguments("C:/Users/ibito/AppData/Local/Google/Chrome/UserData");
+           
         }      
         public void ShutDownApplicationUnderTest()
         {

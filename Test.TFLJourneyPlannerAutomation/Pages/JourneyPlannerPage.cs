@@ -12,28 +12,28 @@ namespace Test.TFLJourneyPlannerAutomation.Pages
             _driver = driver;
         }
 
-        private By planajourneylink = By.CssSelector("ul.collapsible-menu li:nth-child(1)");
+        private By planajourneylink = By.CssSelector(".collapsible-menu li:nth-child(1)");
         private By fromfield = By.Id("InputFrom");
         private By tofield = By.Id("InputTo");
         private By planmyjourneyBtn = By.CssSelector("#plan-journey-button");
-        private By resultName = By.CssSelector("div.headline-container span:nth-child(1)");
-        private By resultDetails1 = By.XPath("//*[@id='plan-a-journey']/div[1]/div[1]/div[1]/span[2]/strong");
-        private By resultDetails2 = By.XPath("//*[@id='plan-a-journey']/div[1]/div[1]/div[2]/span[2]/strong");
-        private By errorMessage = By.CssSelector("ul.field-validation-errors li:nth-child(1)");
-        private By acceptcookiesBtn = By.CssSelector("#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll");
-        private By doneBtn = By.XPath("/html/body/div[1]/div[4]/div[2]/button");
+        private By resultName = By.CssSelector(".headline-container span:nth-child(1)");
+        private By resultDetails1 = By.CssSelector(".summary-row:nth-child(1)");
+        private By resultDetails2 = By.CssSelector(".summary-row:last-child");
+        private By errorMessage = By.CssSelector(".field-validation-errors li:nth-child(1)");
+        private By acceptcookiesBtn = By.Id("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll");
+        private By doneBtn = By.CssSelector("#cb-confirmedSettings .cb-button");
         private By fromFieldErrorMsg = By.Id("InputFrom-error");
         private By toFieldErrorMsg = By.Id("InputTo-error");
-        private By changeTime = By.CssSelector("div.time-defaults a:nth-of-type(1)");
+        private By changeTime = By.CssSelector(".time-defaults a:nth-of-type(1)");
         private By dateChange = By.Id("Date");
         private By timeChange = By.Id("Time");
-        private By arrivingBtn = By.CssSelector("ul.horizontal-toggle-buttons li:nth-child(2)");
-        private By arrivingResult = By.XPath("//*[@id='plan-a-journey']/div[1]/div[2]/strong");
-        private By editJourney = By.CssSelector("a.edit-journey span:nth-child(1)");
-        private By clearFromFieldBtn = By.CssSelector("#search-filter-form-0>div>div>a");
-        private By recentsLink = By.CssSelector("#jp-recent-tab-home>a");
-        private By recentJourneys = By.CssSelector("#jp-recent-content-home->a:nth-child(1)");
-        private By homePage = By.XPath("//*[@id='full-width-content']/div/div[1]/div/ol/li[1]/a/span");
+        private By arrivingBtn = By.CssSelector(".horizontal-toggle-buttons li:nth-child(2)");
+        private By arrivingResult = By.CssSelector(".journey-result-summary>:nth-child(2)>strong");
+        private By editJourney = By.CssSelector(".edit-journey span:nth-child(1)");
+        private By clearFromFieldBtn = By.CssSelector("#search-filter-form-0 .remove-content ");
+        private By recentsLink = By.CssSelector("#jp-recent-tab-home");
+        private By recentJourneys = By.CssSelector("#jp-recent-content-home->:nth-child(1)");
+        private By homePage = By.CssSelector("#full-width-content .home");
 
 
         public void ClickOnJourneyLink()

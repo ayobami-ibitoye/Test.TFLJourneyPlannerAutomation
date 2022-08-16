@@ -32,8 +32,8 @@ namespace Test.TFLJourneyPlannerAutomation.Pages
         private By editJourney = By.CssSelector(".edit-journey span:nth-child(1)");
         private By clearFromFieldBtn = By.CssSelector("#search-filter-form-0 .remove-content ");
         private By recentsLink = By.CssSelector("#jp-recent-tab-home");
-        private By recentJourneys = By.CssSelector("#jp-recent-content-home->:nth-child(1)");
-        private By homePage = By.CssSelector("#full-width-content .home");
+        private By recentJourneys = By.CssSelector("#jp-recent-content-home->:first-child");
+        private By homePage = By.CssSelector(".home span");
 
 
         public void ClickOnJourneyLink()
